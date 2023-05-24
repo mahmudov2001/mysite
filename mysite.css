@@ -181,6 +181,54 @@ h2{
     padding-top: 60px;
 }
 .green{
+    padding-left: 120px;
     height: 780px;
     background-color: #9DC9C8;
+}
+.head3{
+    font-size: 55px;
+    font-family: "Roboto Slab";
+    padding-top: 180px;
+}
+.money{
+    font-size: 80px;
+    font-family: "Roboto";
+}
+.rubl{
+    padding-top: 100px;
+}
+.rubl :first-child{
+    font-size: 25px;
+    font-family: "Roboto";
+}
+.foot{
+    padding-top: 100px;
+    display: flex;
+    font-family: "roboto";
+}
+.flex{
+    margin-right: 50px;
+    width: 300px;
+}
+.bold{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.black{
+    padding:80px 120px;
+    height: 390px;
+    background-color: #000000;
+}
+.sosialmedia{
+    margin-top: 50px;
+    display: flex;
+}
+.smicon{
+    margin-right: 20px;
+}
+.phone{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    color: white;
 }
