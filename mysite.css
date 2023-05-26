@@ -124,13 +124,20 @@ h2{
     font-size: 27px;
     font-family: "Roboto";
 }
+.bell{
+    margin-right: 100px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    height: 360px;
+    font-size: 27px;
+    font-family: "Roboto";
+}
 .cell{
     margin-bottom: 30px;
     width: 399px;
     height: 360px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    margin-inline: 35px;
 }
 .hp{
     padding-left: 20px;
@@ -141,7 +148,7 @@ h2{
 }
 .last{
     display: flex;
-    margin-inline-end: 550px;
+    padding-left: 50px;
 }
 .brown{
     height: 780px;
@@ -215,20 +222,136 @@ h2{
     font-size: 25px;
 }
 .black{
+    display: flex;
+    justify-content: space-between;
     padding:80px 120px;
     height: 390px;
     background-color: #000000;
 }
 .sosialmedia{
-    margin-top: 50px;
-    display: flex;
+    margin-top: 30px;
 }
-.smicon{
+.icon{
+    margin-right: 10px;
+}
+.right{
+    font-size: 25px;
+    color: white;
+}
+.rightImg{
     margin-right: 20px;
 }
-.phone{
+.lastname{
     display: flex;
-    flex-direction:row;
-    justify-content: center;
     color: white;
+    font-family: "roboto";
+    padding-top: 250px;
+}
+@media (max-width:834px){
+    .sinxro{
+        padding-top: 20px;
+        width:65px;
+        height: 38px;
+    }
+    .head1 p{
+        font-size: 12px;
+    }
+    .logo{
+        width: 12px;
+        height: 12px;
+    }
+    .head{
+        width: 300px;
+    }
+    .name h1{
+        width: 364px;
+        font-size: 46px;
+    }
+    .name p{
+        font-size: 12px;
+        width: 265px;
+        margin-top: 5px;
+    }
+    .teacher{
+        width: 175px;
+        height: 205px;
+        margin-left: 200px;
+    }
+    .text{
+        width:280px;
+        height:115px;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    .paragraphy{
+        width: 383px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .first{
+        width: 180px;
+        height: 180px;
+        margin-bottom: 10px;
+    }
+    .hour{
+        font-size: 12px;
+        margin-inline: 15px;
+        width: 100px;
+    }
+    .footer{
+        width: 600px;
+        justify-content:space-between;
+    }
+    .paragraphy p{
+        margin-top: 10px;
+    }
+    .second{
+        width: 135px;
+        height: 120px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    .format{
+        width: 650px;
+    }
+    .items{
+        font-size: 12px;
+        width: 180px;
+    }
+    .list{
+        margin-top: 50px;
+        width: 400px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .kurs{
+        margin: 100px 0;
+    }
+    .cell{
+        width: 230px;
+        height: 190px;
+    }
+    .iconImg{
+        width: 230px;
+    }
+    .hp{
+        width: 230px;
+        font-size: 15px;
+    }
+    .last{
+        width: 230px;
+        padding-left: 20px;
+    }
+    .cell h3{
+        width: 230px;
+    }
+    .bell{
+        width: 230px;
+        height: 190px;
+        margin-right: 50px;
+    }
 }
