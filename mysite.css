@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
 .sinxro{
-    padding-left:80px;
+    padding:30px 80px;
     width: 112px;
     height: 66px;
 }
 .head{
-    padding-left:80px;
-    margin-top: 50px;
+    padding:50px 80px;
     width: 520px;
     display: flex;
     justify-content:space-between;
@@ -60,7 +59,7 @@ h1{
     padding-left:80px;
     display: flex;
     justify-content: space-between;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
 }
 .paragraphy{
     width: 662px;
@@ -95,8 +94,7 @@ h2{
     font-family: "Roboto Slab";
 }
 .format{
-    padding-left: 80px;
-    margin-top: 100px;
+    padding:100px 80px;
     width: 975px;
     display: flex;
     justify-content: space-between;
@@ -277,11 +275,9 @@ h2{
         height: 205px;
         margin-left: 200px;
     }
-    .text{
-        width:280px;
-        height:115px;
-        margin-top: 0;
-        margin-bottom: 100px;
+    .bottom{
+        width: 300px;
+        margin-bottom: 50px;
     }
     h1{
         font-size: 32px;
@@ -353,5 +349,239 @@ h2{
         width: 230px;
         height: 190px;
         margin-right: 50px;
+    }
+    .ekaterina{
+        width: 460px;
+        height: 260px;
+    }
+    .information{
+        width: 400px;
+        padding-top: 40px;
+        padding-inline: 45px;
+        font-size: 12px;
+    }
+    .face{
+        width: 110px;
+    }
+    .block{
+        padding:20px 30px;
+    }
+    .text1{
+        padding:20px 0;
+        font-size: 17px;
+    }
+    .fb{
+        width: 18px;
+        height: 18px;
+    }
+    .brown{
+        height: 450px;
+    }
+    .head3{
+        font-size: 32px;
+        padding-top: 100px;
+    }
+    .money{
+        font-size: 46px;
+    }
+    .rubl :first-child{
+        font-size: 14px;
+    }
+    .bold{
+        font-size: 14px;
+    }
+    .one{
+        font-size: 10px;
+    }
+    .flex{
+        width: 170px;
+    }
+    .green{
+        padding-left: 70px;
+        height: 450px;
+    }
+    .foot{
+        padding-top: 50px;
+    }
+    .black{
+        padding:40px 70px;
+        height: 220px;
+    }
+    .rubl{
+        padding-top: 50px;
+    }
+    .sinxwhite{
+        width: 70px;
+        height: 40px;
+    }
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+    .lastname{
+        padding-top: 120px;
+        font-size: 10px;
+    }
+    .right{
+        font-size: 14px;
+    }
+    .rightImg{
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+    }
+}
+@media (max-width:500px)  {
+    .sinxro{
+        width: 50px;
+        height: 30px;
+        padding: 35px;
+    }
+    .head{
+        padding:5px 35px;
+    }
+    .kino{
+        flex-direction: column;
+        width: 400px;
+        padding:5px 35px;
+    }
+    .name h1{
+        width: 290px;
+        font-size: 37px;
+    }
+    .teacher{
+        width: 140px;
+        height: 175px;
+    }
+    .name{
+        width: 400px;
+    }
+    .bottom{
+        width: 250px;
+        height: 93px;
+    }
+    .text{
+        width: 400px;
+        margin:40px 35px;
+    }
+    h1{
+        font-size: 26px;
+    }
+    .main{
+        padding-left: 35px;
+        display: flex;
+        flex-direction: column;
+    }
+    .paragraphy{
+        font-size: 12px;
+        width: 430px;
+    }
+    .first{
+        width: 170px;
+        height: 160px;
+    }
+    .hour{
+        margin-top: 20px;
+        font-size: 11px;
+    }
+    .footer{
+        width: 300px;
+        flex-wrap: wrap;  
+    }
+    h1{
+        margin-left: 35px;
+    }
+    .image{
+        margin: 0 auto;
+    }
+    .footer{
+        padding-left: 35px;
+    }
+    .picture{
+        display: none;
+    }
+    .format{
+        width: 400px;
+        padding: 35px;
+        flex-direction: column;
+    }
+    .items{
+        margin-top: 20px;
+    }
+    h2{
+        margin-top: 50px;
+        padding-left: 35px;
+    }
+    .list{
+        padding-left: 40px;
+        margin-top: 20px;
+    }
+    .icons{
+        flex-direction: column;
+    }
+    .cell{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .last{
+        padding: 0;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .bell{
+        margin-top: 20px;
+    }
+    .head2{
+        padding-top: 40px;
+        font-size: 26px;
+        width: 400px;
+    }
+    .ekaterina{
+        margin:40px 30px;
+        width: 400px;
+        height: 250px;
+        font-size: 10px;
+    }
+    .information{
+        width: 350px;
+        padding: 20px;
+        height: 110px;
+    }
+    .face{
+        width: 80px;
+        height: 70px;
+    } 
+    .block{
+        padding: 20px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    .text1{
+        padding: 10px;
+    }
+    .fb{
+        padding-top: 10px;
+    }
+    .head3{
+        padding-top: 60px;
+        font-size: 26px;
+    }
+    .green{
+        padding-left: 35px;
+        height: 360px;
+    }
+    .black{
+        height: 170px;
+        flex-direction: column;
+    }
+    .sosialmedia{
+        margin-top: 10px;
+    }
+    .right{
+        margin-top: 30px;
+    }
+    .lastname{
+        padding-top: 40px;
     }
 }
